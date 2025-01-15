@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import ConnectButton from './ConnectButton'
 
 const Navbar = () => {
   return (
@@ -13,6 +14,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-right">
         <div className="nav-link">ABOUT US</div>
+        <ConnectButton />
       </div>
     </div>
   )
